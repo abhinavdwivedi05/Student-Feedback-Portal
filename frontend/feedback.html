@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Submit Feedback</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <h2>Submit Feedback</h2>
+
+    <form id="feedbackForm">
+      <select id="courseSelect"></select>
+
+      <label>Rating (1–5)</label>
+      <input type="number" id="rating" min="1" max="5" required>
+
+      <label>Comments</label>
+      <textarea id="comments"></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <button onclick="location.href='student-dashboard.html'">Back</button>
+  </div>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>

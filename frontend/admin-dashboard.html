@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="header">
+      <h2>Admin Dashboard</h2>
+
+      <div>
+        <button onclick="location.href='analytics.html'">Analytics</button>
+        <button onclick="exportCSV()">Export CSV</button>
+        <button onclick="logout()">Logout</button>
+      </div>
+    </div>
+
+    <div id="cards"></div>
+
+    <h3>All Feedback</h3>
+    <table class="table" id="feedbackTable">
+      <thead>
+        <tr>
+          <th>Student</th>
+          <th>Email</th>
+          <th>Course</th>
+          <th>Rating</th>
+          <th>Comments</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <h3>Add Course</h3>
+    <form id="addCourseForm">
+      <input id="cname" placeholder="Course Name" required>
+      <input id="cfac" placeholder="Faculty Name">
+      <button type="submit">Add Course</button>
+    </form>
+
+  </div>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>

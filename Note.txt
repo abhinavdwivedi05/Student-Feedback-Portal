@@ -1,0 +1,51 @@
+student-feedback-portal/
+├── backend/
+│ ├── package.json
+│ ├── server.js
+│ ├── .env.example
+│ ├── config/
+│ │ └── db.js
+│ ├── models/
+│ │ ├── User.js
+│ │ ├── Course.js
+│ │ └── Feedback.js
+│ ├── routes/
+│ │ ├── auth.js
+│ │ ├── courses.js
+│ │ └── feedback.js
+│ ├── controllers/
+│ │ ├── authController.js
+│ │ ├── courseController.js
+│ │ └── feedbackController.js
+│ ├── middleware/
+│ │ └── auth.js
+│ └── utils/
+│ └── exportCsv.js
+│
+└── frontend/
+├── index.html
+├── signup.html
+├── student-dashboard.html
+├── feedback.html
+├── admin-dashboard.html
+├── analytics.html
+├── css/
+│ └── style.css
+└── js/
+└── scripts.js
+
+
+
+frontend/
+│── index.html
+│── signup.html
+│── student-dashboard.html
+│── feedback.html
+│── admin-dashboard.html
+│── analytics.html
+│
+├── css/
+│   └── style.css
+│
+└── js/
+    └── scripts.js
