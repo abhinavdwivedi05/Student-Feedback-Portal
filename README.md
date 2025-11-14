@@ -78,19 +78,6 @@ student-feedback-portal/
 
 ---
 
-## 🖼️ Screenshots
-
-> Add your screenshots inside `/screenshots` folder.
-
-```
-![Login Page](screenshots/login.png)
-![Student Dashboard](screenshots/student_dashboard.png)
-![Admin Dashboard](screenshots/admin_dashboard.png)
-![Analytics](screenshots/analytics.png)
-```
-
----
-
 ## 🔧 Installation & Setup
 
 ### 1️⃣ Clone the Repository
@@ -196,7 +183,7 @@ role: "admin"
 ## 👨‍💻 Author
 **Abhinav Dwivedi**  
 Full Stack Developer | Student Project  
-GitHub: https://github.com/<your-username>
+GitHub: https://github.com/abhinavdwivedi05
 
 ---
 
